@@ -1,0 +1,29 @@
+.checkoutProduct {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}
+.checkoutProduct img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-right: 4rem;
+}
+.checkoutProduct__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.checkoutProduct__info .checkoutProduct__title {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+  color: rgb(243, 205, 38);
+}

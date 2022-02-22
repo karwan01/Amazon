@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(234, 237, 237);
+}
+
+.checkout__divEmpty {
+  background-color: #fff;
+  height: 200px;
+  border-radius: 5px;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.checkout__emptyIcon {
+  height: 10rem !important;
+  width: 10rem !important;
+  color: #f0c14b;
+}
+.checkout__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.checkout__subtotal {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: min-content;
+}
+.checkout__procedBtn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #f5d178;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
