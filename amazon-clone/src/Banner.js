@@ -28,23 +28,13 @@ function Banner() {
 
         <Link to="/">
           <div>
-            <img
-              className="banner__img"
-              loading="lazy"
-              src="https://links.papareact.com/6ff"
-              alt=""
-            />
+            <img className="banner__img" loading="lazy" src="" alt="" />
           </div>
         </Link>
 
         <Link to="/">
           <div>
-            <img
-              className="banner__img"
-              loading="lazy"
-              src="https://links.papareact.com/7ma"
-              alt=""
-            />
+            <img className="banner__img" loading="lazy" src="" alt="" />
           </div>
         </Link>
       </Carousel>
